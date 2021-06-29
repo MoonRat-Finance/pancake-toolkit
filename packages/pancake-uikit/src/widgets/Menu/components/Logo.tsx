@@ -1,7 +1,7 @@
 import React from "react";
 import styled, {keyframes} from "styled-components";
 import {Link} from "react-router-dom";
-import {LogoIcon} from "../../../components/Svg";
+import {MoonRatLogo} from "../../../components/Svg";
 import Flex from "../../../components/Box/Flex";
 import {HamburgerIcon, HamburgerCloseIcon} from "../icons";
 import MenuButton from "./MenuButton";
@@ -44,7 +44,7 @@ const Logo: React.FC<Props> = ({isPushed, togglePush, href}) => {
     const isAbsoluteUrl = href.startsWith("http");
     const innerLogo = (
         <>
-            <LogoIcon className="desktop-icon"/>
+            <MoonRatLogo className="desktop-icon"/>
         </>
     );
 
